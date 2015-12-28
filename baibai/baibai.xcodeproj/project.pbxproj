@@ -12,6 +12,7 @@
 		7A331FA71C30BBB8009E7A2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A331FA61C30BBB8009E7A2A /* Images.xcassets */; };
 		7A331FAA1C30BBB8009E7A2A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A331FA81C30BBB8009E7A2A /* LaunchScreen.xib */; };
 		7A331FB61C30BBB8009E7A2A /* baibaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A331FB51C30BBB8009E7A2A /* baibaiTests.m */; };
+		7A810FA41C31513200EB4891 /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A810FA31C31513200EB4891 /* firstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		7A331FAF1C30BBB8009E7A2A /* baibaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baibaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A331FB41C30BBB8009E7A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A331FB51C30BBB8009E7A2A /* baibaiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baibaiTests.m; sourceTree = "<group>"; };
+		7A810FA21C31513200EB4891 /* firstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
+		7A810FA31C31513200EB4891 /* firstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 		7A331F9E1C30BBB8009E7A2A /* baibai */ = {
 			isa = PBXGroup;
 			children = (
+				7A810FA21C31513200EB4891 /* firstViewController.h */,
+				7A810FA31C31513200EB4891 /* firstViewController.m */,
 				7A331FA31C30BBB8009E7A2A /* AppDelegate.h */,
 				7A331FA41C30BBB8009E7A2A /* AppDelegate.m */,
 				7A331FA61C30BBB8009E7A2A /* Images.xcassets */,
@@ -211,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A331FA51C30BBB8009E7A2A /* AppDelegate.m in Sources */,
+				7A810FA41C31513200EB4891 /* firstViewController.m in Sources */,
 				7A331FA21C30BBB8009E7A2A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +400,7 @@
 				7A331FBB1C30BBB8009E7A2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A331FBC1C30BBB8009E7A2A /* Build configuration list for PBXNativeTarget "baibaiTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +409,7 @@
 				7A331FBE1C30BBB8009E7A2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
